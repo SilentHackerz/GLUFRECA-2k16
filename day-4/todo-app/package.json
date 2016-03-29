@@ -1,0 +1,10 @@
+{
+  "name": "todo-list",
+  "version": "0.0.1",
+  "description": "my first todo app",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.0.42",
+    "body-parser": "^1.13.3"
+  }
+}

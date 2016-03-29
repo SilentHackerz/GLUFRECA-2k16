@@ -1,0 +1,43 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>My web app</title>
+</head>
+
+    <body>
+        <h1>
+          This page is served from a node server
+        </h1>
+
+        <h3>Enter username and things to do</h3>
+
+        <!-- This is how you write a comment inside HTML-->
+
+        <!-- Input field for typing name-->
+        <input type="text" id="usernameField" />
+
+        <!-- Input field for typing a task/ todo -->
+        <input type="text" id="todoField" />
+
+        <!-- Button to submit the todo. Execute the 'saveTodos' function when clicked -->
+        <button id="submit" onclick="saveTodos()">
+            Submit
+        </button>
+
+        <!-- Execute the 'getTodos' function when clicked -->
+        <button id="retrieve" onclick="getTodos()">
+            Get all todos
+        </button>
+
+        <!-- Container to display all todos-->
+        <div id="displayTodos">
+
+        </div>
+
+        <script type="text/javascript" src="/jquery-1.11.2.min.js"></script>
+        <script type="text/javascript" src="/index.js"></script>
+
+    </body>
+
+</html>
